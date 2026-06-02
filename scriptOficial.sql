@@ -222,6 +222,7 @@ idLeituras INT,
 fkSensor INT,
 lux INT,
 ppfd INT,
+dli DECIMAL(8,1),
 dataHora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 CONSTRAINT PRIMARY KEY (idLeituras, fkSensor),
 CONSTRAINT fk_leituras_sensor FOREIGN KEY (fkSensor) REFERENCES Sensor(idSensor)
