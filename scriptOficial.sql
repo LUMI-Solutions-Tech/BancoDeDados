@@ -330,7 +330,7 @@ fkSensor,
 ppfd,
 dli,
 dataHora
-FROM leituras;
+FROM Leituras;
 
 SELECT ppfd, dli 
 FROM vwDashboard 
