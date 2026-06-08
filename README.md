@@ -55,11 +55,4 @@ Este projeto utiliza:
 
 > Se você souber qual SGBD está usando (MySQL, SQL Server etc.), posso adaptar certinho.
 
----
-
-##  Estrutura do Repositório
-
-```bash
- Lumi-database
- ┣ 📄 lumi.sql
- ┣ 📄 README.md
+--
