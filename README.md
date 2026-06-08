@@ -1,4 +1,4 @@
-# 🗄️ Lumi Database
+#  Lumi Database
 
 Este repositório contém os **scripts de banco de dados** do projeto **Lumi**, uma solução acadêmica voltada para o **monitoramento inteligente da luminosidade em estufas de cultivo de alface**.
 
@@ -6,7 +6,7 @@ O objetivo deste banco é armazenar, organizar e estruturar os dados necessário
 
 ---
 
-## 🌱 Sobre o Projeto
+##  Sobre o Projeto
 
 O **Lumi** é um projeto acadêmico focado em **agricultura orgânica inteligente**, com ênfase no acompanhamento da **intensidade luminosa em estufas agrícolas**.
 
@@ -14,7 +14,7 @@ A proposta é coletar dados de luminosidade utilizando um **sensor LDR conectado
 
 ---
 
-## 🎯 Objetivo deste Repositório
+##  Objetivo deste Repositório
 
 Este repositório foi criado para armazenar os **scripts SQL responsáveis pela modelagem e estruturação do banco de dados** do projeto.
 
@@ -28,7 +28,7 @@ Aqui estão incluídos scripts relacionados a:
 
 ---
 
-## 🧠 Finalidade do Banco de Dados
+##  Finalidade do Banco de Dados
 
 O banco de dados do Lumi tem como função principal organizar as informações coletadas e utilizadas pelo sistema, permitindo o registro de dados importantes como:
 
@@ -40,7 +40,7 @@ O banco de dados do Lumi tem como função principal organizar as informações 
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 Este projeto utiliza:
 
@@ -57,9 +57,9 @@ Este projeto utiliza:
 
 ---
 
-## 📂 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```bash
-📁 Lumi-database
+ Lumi-database
  ┣ 📄 lumi.sql
  ┣ 📄 README.md
