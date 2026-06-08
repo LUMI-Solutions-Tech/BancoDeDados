@@ -317,3 +317,23 @@ END AS 'Status PPFD' FROM Empresa AS e
 			JOIN tipoAlface AS ta ON ta.idTipoAlface = eta.fkTipoAlface
 				JOIN Sensor AS s ON s.fkEstufa = est.idEstufa
 					JOIN Leituras AS l ON l.fkSensor = s.idSensor;
+
+
+-- Criação da View que retorna os valores que estão sendo implementados na Dashboard
+        
+
+-- Criação da View que retorna os valores que estão sendo implementados na Dashboard
+        
+CREATE VIEW vwDashboard AS
+SELECT 
+fkSensor,
+ppfd,
+dli,
+dataHora
+FROM leituras;
+
+SELECT ppfd, dli 
+FROM vwDashboard 
+WHERE fkSensor = 1 
+ORDER BY dataHora DESC 
+LIMIT 12;
